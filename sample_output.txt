@@ -1,0 +1,40 @@
++++++++++++Program to read |Ethernet|IP|TCP| header and print it++++++++++++++++++
+Waiting for a packet...
+Received packet...[66 bytes]
+++++++++++ETHERNET HEADER+++++++++++++++
++ destination_mac : 68:54:5A:BC:09:49
++ source_mac      : E8:65:D4:AA:5A:38
++ type            : 800
+++++++++++++++++++++++++++++++++++++++++
+++++++++++IP Header+++++++++++++++++++++
++ version             : 4
++ header length       : 5
++ type of service     : 32
++ total length        : 52
++ Identification      : 26613
++ Frag Offset         : 64
++ TTL                 : 46
++ Protocol            : 6
++ checksum            : 58987
++ Source address      : 208.115.231.70
++ Destination Address : 192.168.0.102
+++++++++++++++++++++++++++++++++++++++++
+++++++++++TCP Header++++++++++++++++++++
++ Sport            : 443
++ Dport            : 40966
++ Seqno            : 14687
++ Ackno            : 36145
++ Res bits         : 0
++ Data Offset      : 2048
++ FIN              : 0
++ SYN              : 0
++ RST              : 0
++ PSH              : 0
++ ACK              : 1
++ URG              : 0
++ ECE              : 0
++ CWR              : 0
++ Window           : 501
++ Checksum         : 54592
++ Urgent_pointer   : 0
+++++++++++++++++++++++++++++++++++++++++
